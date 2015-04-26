@@ -62,6 +62,24 @@
             </objects>
             <point key="canvasLocation" x="643" y="346"/>
         </scene>
+        <!--Swift View Controller-->
+        <scene sceneID="vAY-u5-3kz">
+            <objects>
+                <viewController storyboardIdentifier="swiftViewController" id="cxm-eQ-ECl" customClass="swiftViewController" customModule="Zoraver_Dhillon_WWDC_2015" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hlR-Dh-K9X"/>
+                        <viewControllerLayoutGuide type="bottom" id="uQ2-q1-S1X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gp4-md-MmS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9iT-7a-16b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079" y="346"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

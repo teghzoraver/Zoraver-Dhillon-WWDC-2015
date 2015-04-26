@@ -15,6 +15,7 @@
 		10A0F8C21AEC84500030BE30 /* Zoraver_Dhillon_WWDC_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8C11AEC84500030BE30 /* Zoraver_Dhillon_WWDC_2015Tests.swift */; };
 		10A0F8CC1AEC84FA0030BE30 /* SphereMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8CB1AEC84FA0030BE30 /* SphereMenu.swift */; };
 		10A0F8D01AEC906C0030BE30 /* MagicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8CF1AEC906C0030BE30 /* MagicViewController.swift */; };
+		10DC670B1AECB87C00A7D0F6 /* swiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC670A1AECB87C00A7D0F6 /* swiftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		10A0F8C11AEC84500030BE30 /* Zoraver_Dhillon_WWDC_2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoraver_Dhillon_WWDC_2015Tests.swift; sourceTree = "<group>"; };
 		10A0F8CB1AEC84FA0030BE30 /* SphereMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SphereMenu.swift; sourceTree = "<group>"; };
 		10A0F8CF1AEC906C0030BE30 /* MagicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicViewController.swift; sourceTree = "<group>"; };
+		10DC670A1AECB87C00A7D0F6 /* swiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				10A0F8AB1AEC84500030BE30 /* AppDelegate.swift */,
 				10A0F8AD1AEC84500030BE30 /* ViewController.swift */,
+				10DC670A1AECB87C00A7D0F6 /* swiftViewController.swift */,
 				10A0F8CF1AEC906C0030BE30 /* MagicViewController.swift */,
 				10A0F8CB1AEC84FA0030BE30 /* SphereMenu.swift */,
 				10A0F8AF1AEC84500030BE30 /* Main.storyboard */,
@@ -222,6 +225,7 @@
 				10A0F8AE1AEC84500030BE30 /* ViewController.swift in Sources */,
 				10A0F8AC1AEC84500030BE30 /* AppDelegate.swift in Sources */,
 				10A0F8CC1AEC84FA0030BE30 /* SphereMenu.swift in Sources */,
+				10DC670B1AECB87C00A7D0F6 /* swiftViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				10A0F8C71AEC84500030BE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10A0F8C81AEC84500030BE30 /* Build configuration list for PBXNativeTarget "Zoraver Dhillon WWDC 2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				10A0F8CA1AEC84500030BE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

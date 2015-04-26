@@ -36,7 +36,13 @@ class ViewController: UIViewController, SphereMenuDelegate {
     }
     
     func sphereDidSelected(index: Int) {
-        println("\(index)")
+        var viewController: UIViewController?
+        if images[0] == "swift" {
+            var storyboard: UIStoryboard = self.storyboard!
+            viewController = storyboard.instantiateViewControllerWithIdentifier("swiftViewController")
+        }
+        self.navigationController!.pushViewController(viewController!, animated: true)
     }
     
+ 
 }
