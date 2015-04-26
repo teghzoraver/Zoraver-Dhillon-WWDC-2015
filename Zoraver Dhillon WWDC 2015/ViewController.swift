@@ -9,24 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController, SphereMenuDelegate {
-    var images:[UIImage] = []
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
         self.view.backgroundColor = UIColor(red:0.2, green:0.38, blue:0.8, alpha:1)
         let start = UIImage(named: "start")
         let image1 = UIImage(named: "swift")
         let image2 = UIImage(named: "dhol")
         let image3 = UIImage(named: "cards")
         let image4 = UIImage(named: "rubiks")
-        var images:[UIImage] = [image1!,image2!,image3!,image4!]
+        var images:[UIImage] = [image1!, image2!,image3!,image4!]
         var menu = SphereMenu(startPoint: CGPointMake(160, 320), startImage: start!, submenuImages:images)
         menu.delegate = self
         self.view.addSubview(menu)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+
         
     }
     
@@ -41,7 +42,7 @@ class ViewController: UIViewController, SphereMenuDelegate {
         var viewController: UIViewController?
         if images[0] == "swift" {
             var storyboard: UIStoryboard = self.storyboard!
-            viewController = storyboard.instantiateViewControllerWithIdentifier("swiftViewController") as! UIViewController
+            viewController = (storyboard.instantiateViewControllerWithIdentifier("swiftViewController") as! UIViewController)
         }
         self.navigationController!.pushViewController(viewController!, animated: true)
     }
