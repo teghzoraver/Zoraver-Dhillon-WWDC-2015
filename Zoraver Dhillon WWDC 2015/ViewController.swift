@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, SphereMenuDelegate {
-var images:[UIImage] = [image1!, image2!,image3!,image4!]
+var images:[UIImage] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +39,7 @@ var images:[UIImage] = [image1!, image2!,image3!,image4!]
     
     func sphereDidSelected(index: Int) {
         var viewController: UIViewController?
-        if images[0] == "swift" {
+        if images[1] == "swift" {
             var storyboard: UIStoryboard = self.storyboard!
             viewController = (storyboard.instantiateViewControllerWithIdentifier("swiftViewController") as! UIViewController)
         }
