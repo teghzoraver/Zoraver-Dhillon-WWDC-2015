@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A0F8AC1AEC84500030BE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8AB1AEC84500030BE30 /* AppDelegate.swift */; };
+		10A0F8AE1AEC84500030BE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8AD1AEC84500030BE30 /* ViewController.swift */; };
+		10A0F8B11AEC84500030BE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A0F8AF1AEC84500030BE30 /* Main.storyboard */; };
+		10A0F8B31AEC84500030BE30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A0F8B21AEC84500030BE30 /* Images.xcassets */; };
+		10A0F8B61AEC84500030BE30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10A0F8B41AEC84500030BE30 /* LaunchScreen.xib */; };
+		10A0F8C21AEC84500030BE30 /* Zoraver_Dhillon_WWDC_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8C11AEC84500030BE30 /* Zoraver_Dhillon_WWDC_2015Tests.swift */; };
+		10A0F8CC1AEC84FA0030BE30 /* SphereMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8CB1AEC84FA0030BE30 /* SphereMenu.swift */; };
+		10A0F8D01AEC906C0030BE30 /* MagicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8CF1AEC906C0030BE30 /* MagicViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10A0F8BC1AEC84500030BE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10A0F89E1AEC84500030BE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A0F8A51AEC84500030BE30;
+			remoteInfo = "Zoraver Dhillon WWDC 2015";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10A0F8A61AEC84500030BE30 /* Zoraver Dhillon WWDC 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zoraver Dhillon WWDC 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A0F8AA1AEC84500030BE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A0F8AB1AEC84500030BE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10A0F8AD1AEC84500030BE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10A0F8B01AEC84500030BE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10A0F8B21AEC84500030BE30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10A0F8B51AEC84500030BE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		10A0F8BB1AEC84500030BE30 /* Zoraver Dhillon WWDC 2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zoraver Dhillon WWDC 2015Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A0F8C01AEC84500030BE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A0F8C11AEC84500030BE30 /* Zoraver_Dhillon_WWDC_2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoraver_Dhillon_WWDC_2015Tests.swift; sourceTree = "<group>"; };
+		10A0F8CB1AEC84FA0030BE30 /* SphereMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SphereMenu.swift; sourceTree = "<group>"; };
+		10A0F8CF1AEC906C0030BE30 /* MagicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A0F8A31AEC84500030BE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0F8B81AEC84500030BE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A0F89D1AEC84500030BE30 = {
+			isa = PBXGroup;
+			children = (
+				10A0F8A81AEC84500030BE30 /* Zoraver Dhillon WWDC 2015 */,
+				10A0F8BE1AEC84500030BE30 /* Zoraver Dhillon WWDC 2015Tests */,
+				10A0F8A71AEC84500030BE30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A0F8A71AEC84500030BE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A0F8A61AEC84500030BE30 /* Zoraver Dhillon WWDC 2015.app */,
+				10A0F8BB1AEC84500030BE30 /* Zoraver Dhillon WWDC 2015Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A0F8A81AEC84500030BE30 /* Zoraver Dhillon WWDC 2015 */ = {
+			isa = PBXGroup;
+			children = (
+				10A0F8AB1AEC84500030BE30 /* AppDelegate.swift */,
+				10A0F8AD1AEC84500030BE30 /* ViewController.swift */,
+				10A0F8CF1AEC906C0030BE30 /* MagicViewController.swift */,
+				10A0F8CB1AEC84FA0030BE30 /* SphereMenu.swift */,
+				10A0F8AF1AEC84500030BE30 /* Main.storyboard */,
+				10A0F8B21AEC84500030BE30 /* Images.xcassets */,
+				10A0F8B41AEC84500030BE30 /* LaunchScreen.xib */,
+				10A0F8A91AEC84500030BE30 /* Supporting Files */,
+			);
+			path = "Zoraver Dhillon WWDC 2015";
+			sourceTree = "<group>";
+		};
+		10A0F8A91AEC84500030BE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A0F8AA1AEC84500030BE30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10A0F8BE1AEC84500030BE30 /* Zoraver Dhillon WWDC 2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				10A0F8C11AEC84500030BE30 /* Zoraver_Dhillon_WWDC_2015Tests.swift */,
+				10A0F8BF1AEC84500030BE30 /* Supporting Files */,
+			);
+			path = "Zoraver Dhillon WWDC 2015Tests";
+			sourceTree = "<group>";
+		};
+		10A0F8BF1AEC84500030BE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A0F8C01AEC84500030BE30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A0F8A51AEC84500030BE30 /* Zoraver Dhillon WWDC 2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A0F8C51AEC84500030BE30 /* Build configuration list for PBXNativeTarget "Zoraver Dhillon WWDC 2015" */;
+			buildPhases = (
+				10A0F8A21AEC84500030BE30 /* Sources */,
+				10A0F8A31AEC84500030BE30 /* Frameworks */,
+				10A0F8A41AEC84500030BE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zoraver Dhillon WWDC 2015";
+			productName = "Zoraver Dhillon WWDC 2015";
+			productReference = 10A0F8A61AEC84500030BE30 /* Zoraver Dhillon WWDC 2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10A0F8BA1AEC84500030BE30 /* Zoraver Dhillon WWDC 2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A0F8C81AEC84500030BE30 /* Build configuration list for PBXNativeTarget "Zoraver Dhillon WWDC 2015Tests" */;
+			buildPhases = (
+				10A0F8B71AEC84500030BE30 /* Sources */,
+				10A0F8B81AEC84500030BE30 /* Frameworks */,
+				10A0F8B91AEC84500030BE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10A0F8BD1AEC84500030BE30 /* PBXTargetDependency */,
+			);
+			name = "Zoraver Dhillon WWDC 2015Tests";
+			productName = "Zoraver Dhillon WWDC 2015Tests";
+			productReference = 10A0F8BB1AEC84500030BE30 /* Zoraver Dhillon WWDC 2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A0F89E1AEC84500030BE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Zoraver Singh Dhillon";
+				TargetAttributes = {
+					10A0F8A51AEC84500030BE30 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					10A0F8BA1AEC84500030BE30 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 10A0F8A51AEC84500030BE30;
+					};
+				};
+			};
+			buildConfigurationList = 10A0F8A11AEC84500030BE30 /* Build configuration list for PBXProject "Zoraver Dhillon WWDC 2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A0F89D1AEC84500030BE30;
+			productRefGroup = 10A0F8A71AEC84500030BE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A0F8A51AEC84500030BE30 /* Zoraver Dhillon WWDC 2015 */,
+				10A0F8BA1AEC84500030BE30 /* Zoraver Dhillon WWDC 2015Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A0F8A41AEC84500030BE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A0F8B11AEC84500030BE30 /* Main.storyboard in Resources */,
+				10A0F8B61AEC84500030BE30 /* LaunchScreen.xib in Resources */,
+				10A0F8B31AEC84500030BE30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0F8B91AEC84500030BE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A0F8A21AEC84500030BE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A0F8D01AEC906C0030BE30 /* MagicViewController.swift in Sources */,
+				10A0F8AE1AEC84500030BE30 /* ViewController.swift in Sources */,
+				10A0F8AC1AEC84500030BE30 /* AppDelegate.swift in Sources */,
+				10A0F8CC1AEC84FA0030BE30 /* SphereMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A0F8B71AEC84500030BE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A0F8C21AEC84500030BE30 /* Zoraver_Dhillon_WWDC_2015Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10A0F8BD1AEC84500030BE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A0F8A51AEC84500030BE30 /* Zoraver Dhillon WWDC 2015 */;
+			targetProxy = 10A0F8BC1AEC84500030BE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10A0F8AF1AEC84500030BE30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A0F8B01AEC84500030BE30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10A0F8B41AEC84500030BE30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A0F8B51AEC84500030BE30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10A0F8C31AEC84500030BE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10A0F8C41AEC84500030BE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A0F8C61AEC84500030BE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zoraver Dhillon WWDC 2015/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10A0F8C71AEC84500030BE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zoraver Dhillon WWDC 2015/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10A0F8C91AEC84500030BE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zoraver Dhillon WWDC 2015Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zoraver Dhillon WWDC 2015.app/Zoraver Dhillon WWDC 2015";
+			};
+			name = Debug;
+		};
+		10A0F8CA1AEC84500030BE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zoraver Dhillon WWDC 2015Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zoraver Dhillon WWDC 2015.app/Zoraver Dhillon WWDC 2015";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A0F8A11AEC84500030BE30 /* Build configuration list for PBXProject "Zoraver Dhillon WWDC 2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A0F8C31AEC84500030BE30 /* Debug */,
+				10A0F8C41AEC84500030BE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A0F8C51AEC84500030BE30 /* Build configuration list for PBXNativeTarget "Zoraver Dhillon WWDC 2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A0F8C61AEC84500030BE30 /* Debug */,
+				10A0F8C71AEC84500030BE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10A0F8C81AEC84500030BE30 /* Build configuration list for PBXNativeTarget "Zoraver Dhillon WWDC 2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A0F8C91AEC84500030BE30 /* Debug */,
+				10A0F8CA1AEC84500030BE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A0F89E1AEC84500030BE30 /* Project object */;
+}
