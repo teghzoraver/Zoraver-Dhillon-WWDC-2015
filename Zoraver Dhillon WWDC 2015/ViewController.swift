@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, SphereMenuDelegate {
-
+var images:[UIImage] = [image1!, image2!,image3!,image4!]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,6 @@ class ViewController: UIViewController, SphereMenuDelegate {
         let image2 = UIImage(named: "dhol")
         let image3 = UIImage(named: "cards")
         let image4 = UIImage(named: "rubiks")
-        var images:[UIImage] = [image1!, image2!,image3!,image4!]
         var menu = SphereMenu(startPoint: CGPointMake(160, 320), startImage: start!, submenuImages:images)
         menu.delegate = self
         self.view.addSubview(menu)
