@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FBB94230-3C69-486D-93D0-2C4671FC691F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Zoraver Dhillon WWDC 2015</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>730A6CD0169634E76AA39732E4F4246AADBF201B</key>
@@ -16,7 +16,7 @@
 		<string>https://github.com/teghzoraver/WWDC2015.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Zoraver Dhillon WWDC 2015.xcodeproj/project.xcworkspace</string>
+	<string>Zoraver Dhillon WWDC 2015.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>730A6CD0169634E76AA39732E4F4246AADBF201B</key>

@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, SphereMenuDelegate {
-    
+    var images:[UIImage] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,6 +30,8 @@ class ViewController: UIViewController, SphereMenuDelegate {
         
     }
     
+ 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -39,7 +41,7 @@ class ViewController: UIViewController, SphereMenuDelegate {
         var viewController: UIViewController?
         if images[0] == "swift" {
             var storyboard: UIStoryboard = self.storyboard!
-            viewController = storyboard.instantiateViewControllerWithIdentifier("swiftViewController")
+            viewController = storyboard.instantiateViewControllerWithIdentifier("swiftViewController") as! UIViewController
         }
         self.navigationController!.pushViewController(viewController!, animated: true)
     }

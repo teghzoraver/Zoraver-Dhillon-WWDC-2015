@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1077326C1AED94CD008E9F83 /* DholViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077326B1AED94CD008E9F83 /* DholViewController.swift */; };
+		1077326E1AED94D8008E9F83 /* RubiksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077326D1AED94D8008E9F83 /* RubiksViewController.swift */; };
 		10A0F8AC1AEC84500030BE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8AB1AEC84500030BE30 /* AppDelegate.swift */; };
 		10A0F8AE1AEC84500030BE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0F8AD1AEC84500030BE30 /* ViewController.swift */; };
 		10A0F8B11AEC84500030BE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A0F8AF1AEC84500030BE30 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1077326B1AED94CD008E9F83 /* DholViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DholViewController.swift; sourceTree = "<group>"; };
+		1077326D1AED94D8008E9F83 /* RubiksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubiksViewController.swift; sourceTree = "<group>"; };
 		10A0F8A61AEC84500030BE30 /* Zoraver Dhillon WWDC 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zoraver Dhillon WWDC 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A0F8AA1AEC84500030BE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10A0F8AB1AEC84500030BE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				10A0F8CF1AEC906C0030BE30 /* MagicViewController.swift */,
 				10A0F8CB1AEC84FA0030BE30 /* SphereMenu.swift */,
 				10A0F8AF1AEC84500030BE30 /* Main.storyboard */,
+				1077326B1AED94CD008E9F83 /* DholViewController.swift */,
+				1077326D1AED94D8008E9F83 /* RubiksViewController.swift */,
 				10A0F8B21AEC84500030BE30 /* Images.xcassets */,
 				10A0F8B41AEC84500030BE30 /* LaunchScreen.xib */,
 				10A0F8A91AEC84500030BE30 /* Supporting Files */,
@@ -225,7 +231,9 @@
 				10A0F8AE1AEC84500030BE30 /* ViewController.swift in Sources */,
 				10A0F8AC1AEC84500030BE30 /* AppDelegate.swift in Sources */,
 				10A0F8CC1AEC84FA0030BE30 /* SphereMenu.swift in Sources */,
+				1077326E1AED94D8008E9F83 /* RubiksViewController.swift in Sources */,
 				10DC670B1AECB87C00A7D0F6 /* swiftViewController.swift in Sources */,
+				1077326C1AED94CD008E9F83 /* DholViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
